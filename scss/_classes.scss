@@ -1,0 +1,22 @@
+@import "media-queries";
+
+.title {
+  &-small {
+    margin: auto;
+    letter-spacing: 0.5rem;
+    font-size: 1.7rem;
+    @include sm {
+      padding-top: 2rem;
+      text-align: center;
+    }
+  }
+}
+
+.text {
+  &-primary {
+    color: var(--primary);
+  }
+  &-hint {
+    color: var(--hint);
+  }
+}
