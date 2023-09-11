@@ -79,7 +79,6 @@ aside {
     }
     h3 {
       margin: 1rem auto;
-      // margin-left: 1rem;
       font-size: 1.4rem;
     }
 
@@ -133,7 +132,6 @@ main {
   grid-area: main;
   display: flex;
   flex-direction: column;
-  // margin: 2rem auto 0rem auto;
   padding: 5rem 10rem;
   @include sm {
     padding: 1rem;
@@ -205,11 +203,10 @@ main {
   }
 
   a {
-    margin: 1rem 0 !important;
+    margin: 1rem 0;
     padding: 0;
   }
   img {
-    // margin-right: 2rem;
     max-width: 100px;
     border-radius: 150px;
     &:hover {
@@ -222,100 +219,6 @@ main {
   }
 }
 
-// //   .skills {
-// //     display: flex;
-// //     flex-direction: row;
-// //     text-align: center;
-// //     justify-content: space-around;
-// //     ul {
-// //       text-align: left;
-// //     }
-
-// //     .hardSkills {
-// //       flex: 1;
-// //       border-right: 1px solid var(--border);
-// //     }
-// //     .softSkills {
-// //       flex: 1;
-// //     }
-
-// //     .insideSkills {
-// //       padding-left: 25%;
-// //       @include sm {
-// //         padding-left: 10%;
-// //       }
-// //     }
-// //   }
-
-// //   .formations {
-// //     ul {
-// //       padding-left: 10%;
-// //       list-style: none;
-// //       @include sm {
-// //         padding: 0% 5% 0% 5%;
-// //       }
-// //     }
-// //   }
-
-// //   .xpPro {
-// //     ul {
-// //       padding-left: 10%;
-// //       list-style: none;
-// //       @include sm {
-// //         padding: 0% 5% 0% 5%;
-// //       }
-// //     }
-// //   }
-
-// //   .hobbies {
-// //     display: flex;
-// //     ul {
-// //       padding-left: 10%;
-// //       list-style: none;
-// //       @include sm {
-// //         padding: 0% 5% 0% 5%;
-// //       }
-// //     }
-// //   }
-
-// //   .projet {
-// //     div {
-// //       padding-left: 10%;
-// //       @include sm {
-// //         padding: 0% 5% 0% 5%;
-// //       }
-// //     }
-// //     padding-bottom: 3rem;
-// //   }
-// // }
-
-// // .certifications {
-// //   @include sm {
-// //     text-align: center;
-// //   }
-// // }
-
-// // .links {
-// //   color: rgb(0, 127, 212);
-// //   &:hover {
-// //     font-weight: bold;
-// //   }
-// // }
-
-// // .h2WithIcon {
-// //   display: flex;
-// //   flex-direction: row;
-// //   align-items: center;
-// //   justify-content: center;
-// //   margin: 4rem auto 2rem auto;
-
-// //   h2 {
-// //     display: flex;
-// //     margin: auto;
-// //   }
-// //   i {
-// //     // padding: 1.3rem 3rem 0rem 2rem;
-// //     margin: 2px 2rem auto 1rem;
-// //     font-size: 2rem;
-// //   }
-// // }
+.bold {
+  font-weight: 700;
+}

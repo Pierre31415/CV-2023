@@ -256,7 +256,7 @@ main .projets .iProjets {
   color: var(--primary);
 }
 main a {
-  margin: 1rem 0 !important;
+  margin: 1rem 0;
   padding: 0;
 }
 main img {
@@ -269,6 +269,10 @@ main img:hover {
 }
 main p {
   margin-left: 2rem;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
